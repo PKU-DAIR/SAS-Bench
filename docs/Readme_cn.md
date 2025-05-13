@@ -13,7 +13,7 @@
     </p>
 </p>
 
-## SAS-Bench: A Comprehensive Benchmark for Short Answer Scoring with LLMs
+## SAS-Bench: A Fine-Grained Benchmark for Evaluating Short Answer Scoring with Large Language Models
 
 [数据集](https://huggingface.co/datasets/aleversn/SAS-Bench) | [论文](https://arxiv.org/pdf/2505.07247) | [代码](https://github.com/PKU-DAIR/SAS-Bench)
 
