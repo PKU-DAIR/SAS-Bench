@@ -1,0 +1,11 @@
+.vscode
+./*.txt
+**/**/__pycache__
+model/
+save_model/
+data_record/
+data/
+chroma_data/
+datasets_*_Scored/
+**/**/api_key.txt
+results/

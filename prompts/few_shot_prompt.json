@@ -1,0 +1,5 @@
+{
+    "prefix": "【参考示例】",
+    "suffix": "以上为参考样例和参考输出格式，请参考这些样例的评分格式对下面的真实材料进行评估",
+    "template": "\n- 试题内容：{question}\n- 题目分值：{total}\n- 标准答案：{reference}\n- 解析说明：{analysis}\n- 学生作答：{student_answer}\n输出: {output}"
+}

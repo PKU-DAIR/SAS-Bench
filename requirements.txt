@@ -1,0 +1,10 @@
+protobuf
+transformers>=4.44.1
+cpm_kernels
+torch>=2.0
+gradio
+mdtex2html
+sentencepiece
+accelerate
+json_repair
+openai
