@@ -84,11 +84,11 @@ Final CCS calculation:
 Quantifies how well the model identifies error types compared to human annotators, stratified by answer quality tiers.
 
 **Formula**  
-1. Partition samples into 3 groups (Low/Medium/High) using quantile thresholds \( \tau_1, \tau_2 \):
+1. Partition samples into 3 groups (Low/Medium/High) using quantile thresholds $\tau_1, \tau_2$:
 ```math
 \phi(x) = \mathbb{I}(x \geq \tau_1) + \mathbb{I}(x \geq \tau_2)
 ```
-2. Compute error frequency matrices \( \mathbf{M}^p_k, \mathbf{M}^g_k \) per group \( k \)
+2. Compute error frequency matrices $ \mathbf{M}^p_k, \mathbf{M}^g_k $ per group $ k $
 3. Calculate Spearman correlation per group:
 ```math
 \rho_k = \text{SpearmanR}(\mathbf{M}^p_k, \mathbf{M}^g_k)
