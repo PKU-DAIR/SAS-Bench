@@ -88,7 +88,7 @@ Quantifies how well the model identifies error types compared to human annotator
 ```math
 \phi(x) = \mathbb{I}(x \geq \tau_1) + \mathbb{I}(x \geq \tau_2)
 ```
-2. Compute error frequency matrices $ \mathbf{M}^p_k, \mathbf{M}^g_k $ per group $ k $
+2. Compute error frequency matrices $\mathbf{M}^p_k, \mathbf{M}^g_k$ per group $k$
 3. Calculate Spearman correlation per group:
 ```math
 \rho_k = \text{SpearmanR}(\mathbf{M}^p_k, \mathbf{M}^g_k)
