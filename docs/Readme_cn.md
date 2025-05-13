@@ -10,9 +10,6 @@
         <a href="https://github.com/PKU-DAIR/SAS-Bench">
             <img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/PKU-DAIR/SAS-Bench?logo=github&style=flat">
         </a>
-        <a href="https://github.com/PKU-DAIR/SAS-Bench/releases">
-            <img alt="GitHub all releases" src="https://img.shields.io/github/downloads/PKU-DAIR/SAS-Bench/total?logo=github&style=flat">
-        </a>
     </p>
 </p>
 
