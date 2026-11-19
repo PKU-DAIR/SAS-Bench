@@ -32,7 +32,7 @@ def compute_ecs(pred_scores, ori_scores, total_scores, pred_errors, gold_errors,
         pred, gold, max_s, p_errors, g_errors = pred_scores[i], ori_scores[i], total_scores[i], pred_errors[i], gold_errors[i]
         pred = pred / (max_s + Ln)
         gold = gold / (max_s + Ln)
-        if pred <= range1:
+        if pred < range1:
             for j, freq in enumerate(p_errors):
                 pred_range_error_matrix[0][j] += freq
         elif pred < range2:
@@ -41,7 +41,7 @@ def compute_ecs(pred_scores, ori_scores, total_scores, pred_errors, gold_errors,
         else:
             for j, freq in enumerate(p_errors):
                 pred_range_error_matrix[2][j] += freq
-        if gold <= range1:
+        if gold < range1:
             for j, freq in enumerate(g_errors):
                 ori_range_error_matrix[0][j] += freq
         elif gold < range2:
